@@ -1,7 +1,7 @@
 # freeCodeCamp drum machine project  
 ## The goal of this challenge :  
 The drum machine project is a part of [freeCdoeCamp front end libraries certifiaction](https://www.freecodecamp.org/learn/front-end-development-libraries/) and it's goal is to fulfill the user stories down bellow:  
-User Story #1: I should be able to see an outer container with a corresponding id="drum-machine" that contains all other elements.  
+**User Story #1:** I should be able to see an outer container with a corresponding id="drum-machine" that contains all other elements.  
 
 **User Story #2**: Within #drum-machine I can see an element with a corresponding id="display".  
 
@@ -16,9 +16,9 @@ User Story #1: I should be able to see an outer container with a corresponding i
 **User Story #7**: When a .drum-pad is triggered, a string describing the associated audio clip is displayed as the inner text of the #display element (each string must be unique).  
   
 ## Prview  
-![the preview of the project]()  
+![the preview of the project](https://github.com/fedilayoub/react-drum-machine-fcc/blob/master/preview.jpg)  
 ## Live demo  
-[Drum machine build with react]()  
+[Drum machine build with react](https://fedilayoub.github.io/react-drum-machine-fcc/)  
 
 
 
