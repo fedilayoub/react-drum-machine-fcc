@@ -1,4 +1,57 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+}
+
+body {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 28px;
+  color: #eee;
+}
+
+#drum-machine {
+  margin: 15px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#app-header{
+ text-align: center;
+  color: #eee;
+  font-family: Roboto;
+  font-size: 40px;
+}
+.wrapper {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  grid-gap: 15px;
+  margin-top: 40px;
+  border-radius: 15px;
+  grid-template-columns: 1fr;
+  background-color: #323975;
+ 
+}
+
+
+@media(max-width: 480px){
+  .wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+  }
+}
+@media(max-width: 720px){
+  .wrapper {
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+  }
 }
 

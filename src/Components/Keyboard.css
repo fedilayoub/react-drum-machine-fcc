@@ -1,0 +1,22 @@
+.keyboard {
+    display: inline-grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 3px;
+  justify-items: center;
+  align-items: center;
+}
+
+.keyboard .drum-pad {
+  width: 80px;
+  height: 80px;
+  color: #323975;
+  outline: none;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #ffffff;
+  transition: all .3s ease-in-out
+}

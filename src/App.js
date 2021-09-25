@@ -134,20 +134,16 @@ function App() {
   const [sounds, setSounds] = React.useState(soundsGroup[soundType]);
   
   const styleActiveKey = (key) => {
-    key.parentElement.style.backgroundColor = "#000000"
+    key.parentElement.style.backgroundColor = "#1b1b33"
     key.parentElement.style.color = "#ffffff"
   }
   
-  const deActivatedKey = (audio) => {
-    audio.parentElement.style.backgroundColor = "#ffffff"
-    audio.parentElement.style.color = "#000000"
-  }
  
  const deactivateAudio = (audio) => {
    setTimeout(() => {
      audio.parentElement.style.backgroundColor = "#ffffff"
-     audio.parentElement.style.color = "#000000"
-   }, 300)
+     audio.parentElement.style.color = "#1b1b33"
+   }, 450)
  }
 
   const play = (key, sound) => {
@@ -187,8 +183,11 @@ function App() {
     }) 
   }
   
+  
   return (
+    
     <div id="drum-machine">
+      <div id="app-header">freeCodeCamp drum-machine challenge</div>
        {setKeyVolume()}
       <div className="wrapper">
         <Keyboard sounds={sounds} play={play} power={power} deactivateAudio={deactivateAudio} />

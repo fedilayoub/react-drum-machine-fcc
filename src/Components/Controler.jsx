@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Controler.css';
 
 const Controler = ({ stop, name, power, volume, handleVolumeChange, changeSoundGroup }) => {
     return (
